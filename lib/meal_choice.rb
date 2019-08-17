@@ -1,4 +1,4 @@
-meal_choice( veg1 = broccoli,veg2 = carrots)
-   puts "what a nutritious meal!"
-   puts "A placte of #{protein} with #{veg1} and #{veg2}."
- end 
+meal_choice(veg1, veg2, protein = "meat")
+   puts "what a nutrious meal"
+   puts "A placte with a #{protein} with a #{veg1} and with a #{veg2}."
+end
